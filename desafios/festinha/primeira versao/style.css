@@ -1,0 +1,78 @@
+@charset "UTF-8";
+body{
+    margin: 0px;
+    border: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(236, 153, 52); 
+}
+header{
+    border: solid 3px;
+    margin: 0px;
+    height: 50px;
+    line-height: 10px;
+    text-align: center;
+}
+#pai{
+    margin: 50px;
+    border: solid 5px;
+    width: 500px;
+    height: 330px;
+    text-align: center;
+    background-color: white;
+}
+#filho{
+    margin: 10px;
+    border: solid 5px;
+    padding: 10px;
+    width: 500px;
+    height: 310px; 
+} 
+div > p{
+    margin: 40px;
+    padding: 2px;
+}
+div > input{
+    margin: 10px;
+} 
+div > button{
+    margin: 10px;
+}  
+#miss{
+   display: inline-block;
+   border: solid 1px;
+   width: 200px;
+   height: 300px;
+   margin: 0px;
+}
+#mister{
+    display: inline-block;
+    border: solid 1px;
+    width: 200px;
+    margin-left: 85px;
+}
+div > h4{
+    text-align: center;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}       
+.box {
+    width: 300px;
+    height: 300px;
+    background: #fff;
+}
+header >h1{
+    color: white;
+}
+footer{
+    position: absolute;
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    width: 1910px;
+    bottom: 0px;
+}
